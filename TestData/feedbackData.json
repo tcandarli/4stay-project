@@ -7,7 +7,7 @@
     "feedbackPositiveTestData":{
         "fname":"Cyberteksans",
         "email":"gcyberg@gmail.com",
-        "messageText":"Too many bugs in web application, should be revised and tested by quality SDET"
+        "messageText":"Valid email test"
     },
 
     "locators":{

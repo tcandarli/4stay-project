@@ -9,10 +9,10 @@ exports.config = {
     browserName: 'chrome'
   },
   
-  specs: ['../Test/Ali_spec.js'],
+  specs: ['../Test/4stay.spec.js'],
 // suites:{
-//     smoke:['../Tests/Ali_spec.js','../Tests/demo.spec.js'],
-//     regression:['../Tests/*.spec.js']
+//     smoke:['../Test/smoke.spec.js'],
+//     regression:['../Test/*.spec.js']
 // }, 
 
 onPrepare: function () {
@@ -30,7 +30,7 @@ onPrepare: function () {
         preserveDirectory: false,
         screenshotsSubfolder: 'images',
         jsonsSubfolder: 'jsons',
-        docName: 'CyberBank-Report.html'
+        docName: '4Stay-Report.html'
      }).getJasmine2Reporter());
   
 },
